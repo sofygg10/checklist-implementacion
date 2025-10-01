@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checklist de Implementación Web (3 Columnas) 🚀</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzFkMWQxZCIvPgo8cGF0aCBkPSJNMjUgOS4wMDAwMUwxMi4wMDAxIDIyTDI1LjAwMDEgMjIiLz4KPHBhdGggZD0iTTE4LjY2NjcgMTUuNTA2MkwxMi42MjY1IDE5LjA0NzRMMTAuMTE3OCAxNi41Mzg2TDEyLjYyNjUgMTQuMDI5OUwxOC42NjY3IDE1LjUwNjJaIiBmaWxsPSIjRjRGNEY0Ii8+CjxwYXRoIGQ9Ik03IDkuOTI0NDhMMTAuMzMzMyA2LjY4NTY0TDEwLjMzMzMgMjUuNTg2N0w3IDIyLjM0NzlMNyA5LjkyNDQ4WiIgZmlsbD0iIzAwRkZDOTIvMiIvPgo8cGF0aCBkPSJNMjEgOS45MjQ0OEwyNC4zMzMzIDYuNjg1NjRMMjQuMzMzMyAyNS41ODY3TDIxIDIyLjM0NzlMMjEgOS45MjQ0OFoiIGZpbGw9IiMwMEZGQzkyIi8+CjxwYXRoIGQ9Ik0xNi4zOTYzIDE5Ljg5NUwxMi42MDM4IDE5Ljk4ODdMMTIuMjM4NyAxNi40NzgxTDE1Ljg1MzMgMTYuNDQ3NUwxNi43ODIzIDE4LjE4NTdMMTguNjY1OSAxOS41MDM4TDE3LjU0NDcgMjIuNTk1OEwxNi4zOTYzIDE5Ljg5NVoiIGZpbGw9IiMwMEZGQzkyIi8+CjxwYXRoIGQ9Ik0xNS41MjY3IDguNzk5NjVMMTUuNTI2NyAxNi40OTk3TDE0LjUyNjcgMTYuNDk5N0wxNC41MjY3IDguNzk5NjVMOC41MjY2NSAxNS40OTk3TDE1LjUyNjcgMTUuNDk5N0wxNS41MjY3IDguNzk5NjVaIiBmaWxsPSIjRjRGNEY0Ii8+CjxwYXRoIGQ9Ik0yMy40NzMzIDguNzk5NjVMMjMuNDczMyAxNi40OTk3TDIyLjQ3MzMgMTYuNDk5N0wyMi40NzMzIDguNzk5NjVMMTYuNDczMyAxNS40OTk3TDIzLjQ3MzMgMTUuNDk5N0wyMy40NzMzIDguNzk5NjVaIiBmaWxsPSIjRjRGNEY0Ii8+CjxwYXRoIGQ9Ik0xNy40NDkyIDI2LjAxMzlMMjEuNDcxMSAyMi4yNjEzTDIyLjE0NjUgMjEuNjk1NEwxOS40ODE3IDE5LjAxMjlMMTYuMDU5MiAyMi4yNjEzTDE2LjA1OTIgMjYuMDExTDE3LjQ0OTIgMjYuMDExVjI2LjAxMzlWMTkuMjQ0OUwxOS45NzQ3IDE2Ljk4MzVMMjMuMDQzNiAxOS43MjE0TDIyLjQ0MTcgMjEuNjYzTDE3LjQ0OTIgMjYuMDExVjI2LjAxMzlWMjYuMDExWiIgZmlsbD0iIzAwRkZDOTIiLz4KPHBhdGggZD0iTTE4LjY2NjcgMTUuNTA2MkwxMi42MjY1IDE5LjA0NzRMMTAuMTE3OCAxNi41Mzg2TDEyLjYyNjUgMTQuMDI5OUwxOC42NjY3IDE1LjUwNjJaIiBmaWxsPSIjRjRGNEY0Ii8+Cjwvc3ZnPgo=" type="image/svg+xml">
+</head>
+<body>
+
+<header>
+    <h1>Checklist de Implementación 🚀</h1>
+    
+    <div class="header-buttons">
+        <a href="reference.html" class="nav-button">Proyectos de Referencia 💡</a>
+        <button id="clearAllButton" class="clear-button">Limpiar Todo (Desmarcar)</button>
+    </div>
+</header>
+
+    <section id="importantMessages">
+        <h2>⚠️ Mensajes Importantes</h2>
+        <div class="message-container">
+            <div class="message warning">
+                <h4>Memoria / Accesibilidad 🚦</h4>
+                <p>Si **NO se ha presentado memoria**, se debe revisar la **Accesibilidad** obligatoriamente.</p>
+                <p>en **"Memorias 1"**. ¡Pedir al QA que **cree la carpeta**!</p>
+            </div>
+            <div class="message info">
+                <h4>Migraciones 🌐</h4>
+                <p>Si están **sin migrar**, deben tener accesibilidad.</p>
+            </div>
+            <div class="message critical">
+                <h4>Tickets de Baja 🚫</h4>
+                <p>Si es **ticket de baja**, **NO se manda a QA**</p>
+            </div>
+            <div class="message action">
+                <h4>Guía QA / Enlaces 🔗</h4>
+                <a target="_blank" href="https://www.notion.so/orbidi/Gu-a-enmascaramiento-269f25573a1e8079bb39df3456c2e251">Enmascaramiento</a>
+                <a target="_blank" href="https://www.notion.so/orbidi/Configuracion-Multidominio-Enmascaramiento-239f25573a1e80cd92b6ffa35e695b3d">Configuracion Multidominio-Enmascaramiento </a>
+            </div>
+        </div>
+    </section>
+
+ <section id="globalQuickAccessContainer">
+        
+        <div class="quick-access-left">
+            <h2>🔗 Accesos Rápidos - Don Dominio</h2>
+            <div class="quick-access-box global-box">
+                <h4>🔑 Credenciales</h4>
+                <p>URL: <a href="https://dondominio.com" target="_blank">dondominio.com</a></p>
+                <p>Servidores: <span class="code-highlight"><a href="https://www.notion.so/orbidi/Servidores-23ff25573a1e80d68135d6dcb21d51a1" target="_blank">Servidores🗄️</a></span></p>
+                <p>Contraseña My password: <span class="code-highlight pass-secret">r0Z29Z3%|OVQM-~a</span></p>
+            </div>
+        </div>
+
+        <div class="important-notes-right">
+            <h2>📝 Notas y Verificaciones Rápidas</h2>
+            <div class="notes-checklist-box">
+                <ul>
+                    <li><input type="checkbox"> El cliente llenó la ficha técnica/brief completo.</li>
+                    <li><input type="checkbox"> El servidor de hosting tiene el PHP 8.0 o superior.</li>
+                    <li><input type="checkbox"> El certificado SSL está activo y forzado.</li>
+                    <li><input type="checkbox"> Las IPs están correctamente añadidas al Whitelist de Cloudflare (si aplica).</li>
+                    <li><input type="checkbox"> **[Espacio para futuras notas]**</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <main id="checklistContainer">
+        <section class="category-group web-group">
+            <h2>💻 WEB</h2>
+            
+            <div class="category">
+                <h3>⚙️ Configuraciones</h3>
+                <ul>
+                    <li><input type="checkbox"> Configurar plugin One Tap</li>
+                    <li><input type="checkbox"> Configurar SMTP en WordPress con el nombre comercial del cliente y correo no-reply</li>
+                    <li><input type="checkbox"> Configurar registros DNS en Don Dominio:DKIM, DMARC, SPF (v=), MX (revisar el orden: izquierda = dominio, derecha = mail.dominio.com) Registro A (IP + mail.dominio.com)</li>
+                    <li><input type="checkbox"> Verificar en Don Dominio: Todos los registros SMTP, TXT de Google, Que el titular del dominio sea el cliente</li>
+                    <li><input type="checkbox"> Configurar Sitemap y Robots.txt</li>
+                    <li><input type="checkbox"> Configurar etiquetado de Google Analytics desde Complianz</li>
+                </ul>
+            </div>
+            
+            <div class="category success-group">
+                <h3>🎨 Maquetación Web</h3>
+                <ul>
+                    <li><input type="checkbox"> Cada página tiene un H1</li>
+                    <li><input type="checkbox"> Se respeta la jerarquía de títulos H1 > H2 > H3</li>
+                    <li><input type="checkbox"> Los botones funcionan correctamente</li>
+                    <li><input type="checkbox"> Las imágenes corresponden a la maqueta</li>
+                    <li><input type="checkbox"> Los textos coinciden con la maqueta</li>
+                    <li><input type="checkbox"> Los colores y tipografías coinciden con la maqueta</li>
+                    <li><input type="checkbox"> Header: estructura como la maqueta + botones + GTranslate funcionando</li>
+                    <li><input type="checkbox"> Footer: contiene teléfono, dirección, correo, horario (si aplica)</li>
+                    <li><input type="checkbox"> Click to Chat configurado con el número del cliente</li>
+                    <li><input type="checkbox"> CTA desactivado en las páginas legales y contacto</li>
+                    <li>
+                    <label>Formulario de contacto:</label>
+                <ul class="subitems">
+                    <li><input type="checkbox"> Envía correctamente</li>
+                    <li><input type="checkbox"> Se muestra mensaje de éxito (ojo con fondos oscuros)</li>
+                    <li><input type="checkbox"> El correo llega al cliente (no al de producción)</li>
+                    <li><input type="checkbox"> Se eliminó el CTA en la página de reservas (si no estaba en la maqueta)</li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+            
+            <div class="category reservations-group">
+                <h3>📅✅ RESERVAS (Si aplica)</h3>
+                <ul>
+                    <li><input type="checkbox"> El formulario de reservas funciona correctamente/li>
+                    <li><input type="checkbox">Se muestra mensaje de reserva exitosa</li>
+                    <li><input type="checkbox"> Reserva llega al correo del cliente con 'reply to' correcto</li>
+                </ul>
+            </div>
+
+            <div class="category responsive-group">
+                <h3>📱 RESPONSIVE (WEB)</h3>
+                <ul>
+                    <li><input type="checkbox"> **Tablet:** Centrado, viñetas izquierda, 2 columnas max., imágenes ajustadas, Margenes 5%</li>
+                    <li><input type="checkbox"> **Celular:** Centrado, viñetas izquierda, 1 columna max., imágenes ajustadas, Margenes 8%</li>
+                    <li><input type="checkbox"> Header/Footer funciona bien en móvil/tablet</li>
+                </ul>
+            </div>
+
+            <div class="category clickup-group">
+                <h3>✅ CLICK UP</h3>
+                <ul>
+                    <li><input type="checkbox"> Se puso en casilla de Google la bitácora</li>
+                    <li><input type="checkbox"> Se pusieron accesos de WordPress y Cpanel</li>
+                    <li><input type="checkbox"> El login es por KD-SysAd</li>
+                    <li><input type="checkbox"> Se puso enlace de Cpanel </li>
+                </ul>
+            </div>
+
+            <div class="category legal-group">
+                <h3>⚖️ LEGALES</h3>
+                <ul>
+                    <li><input type="checkbox"> Todas las páginas legales configuradas con plantilla: (AVISO, PRIVACIDAD, COOKIES, ACCESIBILIDAD)</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <section class="category-group ecom-group">
+            <h2>🛒 ECOM</h2>
+
+            <div class="category">
+                <h3>⚙️ Configuraciones</h3>
+                <ul>
+                    <li><input type="checkbox"> Configurar plugin One Tap</li>
+                    <li><input type="checkbox"> Configurar SMTP en WordPress con el nombre comercial del cliente y correo no-reply</li>
+                    <li><input type="checkbox"> Configurar registros DNS en Don Dominio:DKIM, DMARC, SPF (v=), MX (revisar el orden: izquierda = dominio, derecha = mail.dominio.com) Registro A (IP + mail.dominio.com)</li>
+                    <li><input type="checkbox"> Verificar en Don Dominio: Todos los registros SMTP, TXT de Google, Que el titular del dominio sea el cliente</li>
+                    <li><input type="checkbox"> Configurar Sitemap y Robots.txt</li>
+                    <li><input type="checkbox"> Configurar etiquetado de Google Analytics desde Complianz</li>
+                </ul>
+            </div>
+
+            <div class="category woocommerce-group">
+                <h3>🛒 WOOCOMMERCE</h3>
+                <ul>
+                    <li><input type="checkbox"> Zona de envío y pagos configurados (transferencia)</li>
+                    <li><input type="checkbox"> Correos configurados con cliente y colores web</li>
+                    <li><input type="checkbox"> Métodos de pago configurados (ej: transferencia bancaria directa)</li>
+                    <li><input type="checkbox"> Se pueden realizar compras sin problema</li>
+                </ul>
+            </div>
+
+            <div class="category products-group">
+                <h3>🛍️ Productos y Compra</h3>
+                <ul>
+                    <li><input type="checkbox"> Productos, descripciones (cortas/largas) y detalles añadidos como maqueta</li>
+                    <li><input type="checkbox"> Filtros de productos funcionan correctamente</li>
+                    <li><input type="checkbox"> Página de carrito estilizada</li>
+                    <li><input type="checkbox"> Se puede realizar compra sin ningún problema</li>
+                </ul>
+            </div>
+
+            <div class="category success-group">
+                <h3>✅ Maquetación web (ECOM)</h3>
+                <ul>
+                    <li><input type="checkbox"> Cada página tiene un H1</li>
+                    <li><input type="checkbox"> Se respeta la jerarquía de títulos H1 > H2 > H3</li>
+                    <li><input type="checkbox"> Los botones funcionan correctamente</li>
+                    <li><input type="checkbox"> Las imágenes corresponden a la maqueta</li>
+                    <li><input type="checkbox"> Los textos coinciden con la maqueta</li>
+                    <li><input type="checkbox"> Los colores y tipografías coinciden con la maqueta</li>
+                    <li><input type="checkbox"> Header: estructura como la maqueta + botones + GTranslate funcionando</li>
+                    <li><input type="checkbox"> Footer: contiene teléfono, dirección, correo, horario (si aplica)</li>
+                    <li><input type="checkbox"> Click to Chat configurado con el número del cliente</li>
+                    <li><input type="checkbox"> CTA desactivado en las páginas legales y contacto</li>
+                    <li>
+                    <label>Formulario de contacto:</label>
+                <ul class="subitems">
+                    <li><input type="checkbox"> Envía correctamente</li>
+                    <li><input type="checkbox"> Se muestra mensaje de éxito (ojo con fondos oscuros)</li>
+                    <li><input type="checkbox"> El correo llega al cliente (no al de producción)</li>
+                    <li><input type="checkbox"> Se eliminó el CTA en la página de reservas (si no estaba en la maqueta)</li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+
+            <div class="category responsive-group">
+                <h3>📱 RESPONSIVE (ECOM)</h3>
+                <ul>
+                    <li><input type="checkbox"> **Tablet/Celular:** Contenido alineado, imágenes ajustadas, márgenes correctos</li>
+                    <li><input type="checkbox"> Alineación de descripciones con viñetas (bullets)</li>
+                    <li><input type="checkbox"> Estilo de tarjetas informativas (servicios, blogs) a la izquierda</li>
+                    <li><input type="checkbox"> Contenido de productos en single alineado a la izquierda excepto titulo</li>
+                </ul>
+            </div>
+            
+            <div class="category clickup-group">
+                <h3>✅ CLICK UP</h3>
+                <ul>
+                    <li><input type="checkbox"> Se puso en casilla de Google la bitácora</li>
+                    <li><input type="checkbox"> Se pusieron accesos de WordPress y Cpanel</li>
+                    <li><input type="checkbox"> El login es por KD-SysAd</li>
+                    <li><input type="checkbox"> Se puso enlace de Cpanel </li>
+                </ul>
+            </div>
+            
+            <div class="category legal-group">
+                <h3>⚖️ LEGALES</h3>
+                <ul>
+                    <li><input type="checkbox"> Todos con plantilla de legales (AVISO, PRIVACIDAD, COOKIES, ACCESIBILIDAD)</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="category-group migration-group">
+            <h2>➡️🌍 MIGRACIONES</h2>
+            
+            <div class="category">
+                <h3>🌐 DON DOMINIO</h3>
+                <ul>
+                    <li><input type="checkbox"> Se verificó/compró dominio con datos del Brief</li>
+                    <li><input type="checkbox"> Se activó el who is en Don Dominio</li>
+                    <li><input type="checkbox"> Titular del dominio sea el cliente y TXT de Google verificado</li>
+                </ul>
+            </div>
+
+            <div class="category">
+                <h3>✅ Configuraciones</h3>
+                <ul>
+                    <li><input type="checkbox"> Configurar plugin one tap y SMTP en wordpress/Don Dominio</li>
+                    <li><input type="checkbox"> Configurar Site map, robots.txt y etiquetado GA desde Complianz</li>
+                    <li><input type="checkbox"> Titular del dominio sea el cliente y TXT de Google verificado</li>
+                    <li><input type="checkbox"> Crear usuario de cliente</li>
+                    <li><input type="checkbox"> Accesibilidad</li>
+                </ul>
+            </div>
+
+            <div class="category success-group">
+                <h3>✅ WEB/WOOCOMMERCE</h3>
+                <ul>
+                    <li><input type="checkbox"> La web/ecommerce funciona correctamente</li>
+                    <li><input type="checkbox"> Cargan imágenes y fuentes</li>
+                    <li><input type="checkbox"> Cumple con la jerarquía H1-H2-H3 y accesibilidad</li>
+                    <li><input type="checkbox"> El responsive se encuentra bien (márgenes, botones)</li>
+                    <li><input type="checkbox"> Se puede realizar compra (Si aplica WooCommerce)</li>
+                </ul>
+            </div>
+            
+            <div class="category clickup-group">
+                <h3>✅ CLICK UP</h3>
+                <ul>
+                    <li><input type="checkbox"> Se puso el tag de compra de dominio</li>
+                    <li><input type="checkbox"> Se puso en casilla de Google la bitácora</li>
+                    <li><input type="checkbox"> Se puso accesos de WP/Cpanel y se creó markup</li>
+                    <li><input type="checkbox"> Se cambió enlace de link prod y KD-SysAd</li>
+                    <li><input type="checkbox"> Se puso enlace de Cpanel </li>
+                </ul>
+            </div>
+
+            <div class="category legal-group">
+                <h3>⚖️ LEGALES</h3>
+                <ul>
+                    <li><input type="checkbox"> Todos con plantilla de legales (AVISO, PRIVACIDAD, COOKIES, ACCESIBILIDAD)</li>
+                    <li><input type="checkbox"> La URL de legales se actualizó por la nueva</li>
+                </ul>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const clearButton = document.getElementById('clearAllButton');
+            const checkboxes = document.querySelectorAll('#checklistContainer input[type="checkbox"]');
+
+            // Función para desmarcar todos los checkboxes
+            clearButton.addEventListener('click', () => {
+                checkboxes.forEach(checkbox => {
+                    checkbox.checked = false;
+                });
+                // Limpiar LocalStorage para reinicio completo
+                Object.keys(localStorage).forEach(key => {
+                    if (key.startsWith('checklist-')) {
+                        localStorage.removeItem(key);
+                    }
+                });
+                alert('¡Checklist limpio! Listo para una nueva implementación. ✨');
+            });
+
+            // Persistencia de estado (Guardar en LocalStorage)
+            checkboxes.forEach((checkbox, index) => {
+                const storedState = localStorage.getItem('checklist-' + index);
+                if (storedState === 'true') {
+                    checkbox.checked = true;
+                }
+
+                checkbox.addEventListener('change', (event) => {
+                    localStorage.setItem('checklist-' + index, event.target.checked);
+                });
+            });
+        });
+    </script>
+</body>
+</html>
