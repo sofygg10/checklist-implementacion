@@ -350,6 +350,7 @@ input[type="checkbox"]:checked + * {
 
 /* Botón de navegación (Proyectos de Referencia) */
 .nav-button {
+    background-color: var(--color-accent-migration); 
     color: white;
     border: none;
     padding: 10px 25px;
@@ -593,5 +594,6 @@ input[type="checkbox"]:checked + * {
         grid-template-columns: 1fr;
     }
 }
+
 
 
