@@ -664,6 +664,112 @@ input[type="checkbox"]:checked + * {
     }
 }
 
+/*memorias 2*/
+/* --- SECCIÓN CORRECCIÓN DE MEMORIA --- */
+#memoryCorrectionProcess {
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #252525;
+    border-radius: 10px;
+    border: 1px solid #444;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Badge lateral rojo como en la imagen */
+.no-qa-badge {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 40px;
+    background-color: #a30000;
+    color: white;
+    writing-mode: vertical-rl;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(180deg);
+}
+
+#memoryCorrectionProcess h2 {
+    margin-left: 50px;
+    color: #d2a679; /* Color marrón suave de la imagen */
+    font-size: 1.6em;
+}
+
+.process-steps-container {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.step-card {
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(210, 166, 121, 0.2);
+}
+
+.step-card h4 {
+    margin-top: 0;
+    color: #d2a679;
+    border-bottom: 1px solid rgba(210, 166, 121, 0.3);
+    padding-bottom: 5px;
+}
+
+.sub-step {
+    margin-bottom: 15px;
+    font-size: 0.9em;
+}
+
+/* Estilos de etiquetas y checks */
+.tag-issue {
+    background-color: #ff8c00;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: bold;
+}
+
+.check-box-sim {
+    color: #7b68ee;
+    font-weight: bold;
+    background: rgba(123, 104, 238, 0.1);
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* Card de Importante (Copy) */
+.step-card.warning-imp {
+    border: 2px solid #a30000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.imp-text {
+    font-weight: bold;
+    color: #ff4d4d;
+    font-size: 1.1em;
+}
+
+@media (max-width: 768px) {
+    .no-qa-badge {
+        display: none;
+    }
+    #memoryCorrectionProcess h2, .process-steps-container {
+        margin-left: 0;
+    }
+}
 
 
 
