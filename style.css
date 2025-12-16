@@ -338,6 +338,73 @@ input[type="checkbox"]:checked + * {
         padding: 15px;
     }
 }
+/* Estilo para los mensajes de motivación */
+.message.motivation {
+    background-color: #6c5ce7;
+    color: white;
+    border: 3px solid #a29bfe;
+    font-style: italic;
+    text-align: center;
+}
+
+/* Grid para las herramientas de WHOIS */
+.tools-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.tools-grid a {
+    background: #222;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 0.85em;
+    border: 1px solid #444;
+}
+
+/* Grid para las Guías */
+.guides-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.guide-group h4 {
+    margin-bottom: 10px;
+    color: var(--color-accent-web);
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.guide-group a {
+    display: block;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #eee;
+    font-size: 0.85em;
+    border-left: 3px solid transparent;
+    transition: 0.3s;
+}
+
+.guide-group a:hover {
+    background: rgba(0, 255, 201, 0.1);
+    border-left-color: var(--color-accent-web);
+    padding-left: 18px;
+}
+
+/* Estilo para la caja de herramientas */
+.tools-box {
+    background-color: #1e272e;
+    border-top: 3px solid #f1c40f;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 6px;
+}
 
 /* Código CSS adicional para el index.html */
 /* Contenedor de botones en el header */
@@ -594,6 +661,7 @@ input[type="checkbox"]:checked + * {
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
