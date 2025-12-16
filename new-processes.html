@@ -30,18 +30,40 @@
                 <ul class="check-list-style">
                     <li>Search Console / Analytics</li>
                     <li>Accesos Cpanel / Wordpress</li>
-                    <li>Defender <strong>Desactivado</strong></li>
+                    <li>Defender <strong>Activado</strong></li>
                     <li>Bitácora y Backup</li>
                     <li>Fecha y Tag compra dominio (Mem 1)</li>
+                    <li>Accesos bitacora </li>
+                    <li>Backup </li>
+                    <li>Check de revisión QA(aquí esta bien que a veces lo quite el proyecto) </li>
                 </ul>
                 <div class="status-box">
-                    <h4>🚀 Flujo a Tramitación</h4>
-                    <p>Viaja automáticamente si se cumple:</p>
-                    <ul>
-                        <li>Estado Mem 1: <span class="tag-status">PROD / CREAMEN / PRESMEN</span></li>
-                        <li><strong>SIN BLOQUEO:</strong> Falta migración o falta dominio.</li>
-                    </ul>
-                </div>
+    <h4>🚀 Flujo a Tramitación y Ciclo PROD</h4>
+    <p>Viaja automáticamente a tramitación si:</p>
+    <ul class="check-list-style">
+        <li>Estado Mem 1: <span class="tag-status">PROD / CREAMEN / PRESMEN</span></li>
+        <li><strong>SIN BLOQUEO:</strong> Falta migración o falta dominio.</li>
+    </ul>
+
+    <div class="prod-path-container">
+        <h5>📈 Línea de Vida del Proyecto (PROD):</h5>
+        <div class="prod-flow">
+            <div class="flow-node start">PROD 1 / 2</div>
+            <div class="flow-arrow">➡</div>
+            <div class="flow-node direct">SEGUIMIENTO <small>(Si pasa derecho)</small></div>
+        </div>
+        
+        <div class="prod-flow feedback-loop">
+            <div class="flow-node">¿Hay cambios?</div>
+            <div class="flow-arrow">➡</div>
+            <div class="flow-node fdk">FDK PROD 2</div>
+            <div class="flow-arrow">➡</div>
+            <div class="flow-node fdk">FDK PROD 3</div>
+            <div class="flow-arrow">➡</div>
+            <div class="flow-node end">PROD 4 <small>(Límite)</small></div>
+        </div>
+    </div>
+</div>
             </div>
         </section>
 
@@ -74,8 +96,9 @@
                 <div class="capture-item">👤 DonDominio Titular</div>
                 <div class="capture-item">📊 Analytics / Ecommerce</div>
                 <div class="capture-item">💾 Backup</div>
+                <div class="capture-item">Y si está enmascarada el proceso que ustedes hacen en el Analitycs</div>
             </div>
-            <p class="warning-text">⚠️ <strong>IMPORTANTE:</strong> No tocamos nunca el proyecto principal (aunque esté bloqueado).</p>
+            <p class="warning-text">⚠️ <strong>IMPORTANTE:</strong> No importa si el proyecto principal está bloqueado(no tocamos nunca el proyecto principal).</p>
         </section>
 
         <div class="closing-grid">
