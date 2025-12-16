@@ -773,4 +773,6 @@ input[type="checkbox"]:checked + * {
 
 
 
-
+/*Nuevos procesos*/
+.process-button { background-color: #f39c12; }
+.process-button:hover { background-color: #d35400; }
