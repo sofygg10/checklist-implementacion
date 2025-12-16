@@ -862,3 +862,73 @@ input[type="checkbox"]:checked + * {
 @media (max-width: 900px) {
     .requirements-grid, .special-cases-grid, .closing-grid { grid-template-columns: 1fr; }
 }
+/* --- ESTILOS DEL FLUJO PROD --- */
+.prod-path-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    border: 1px solid rgba(243, 156, 18, 0.3);
+}
+
+.prod-path-container h5 {
+    color: #f39c12;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 0.85em;
+}
+
+.prod-flow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.flow-node {
+    padding: 6px 12px;
+    background: #2c313a;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 600;
+    border: 1px solid #444;
+}
+
+.flow-node.start {
+    border-color: #27ae60;
+    color: #2ecc71;
+}
+
+.flow-node.direct {
+    background: #27ae60;
+    color: white;
+}
+
+.flow-node.fdk {
+    border-color: #e74c3c;
+    color: #ff4d4d;
+}
+
+.flow-node.end {
+    background: #e74c3c;
+    color: white;
+}
+
+.flow-arrow {
+    color: #666;
+    font-weight: bold;
+}
+
+.feedback-loop {
+    padding-top: 10px;
+    border-top: 1px dashed #444;
+}
+
+small {
+    display: block;
+    font-size: 0.7em;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
