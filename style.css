@@ -23,7 +23,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+a:-webkit-any-link {
+    color: white !important;
+}
 
 header {
     background-color: #0d0d0d;
@@ -661,6 +663,7 @@ input[type="checkbox"]:checked + * {
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
