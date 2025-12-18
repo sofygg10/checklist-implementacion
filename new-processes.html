@@ -118,6 +118,57 @@
                     <li><span class="tag-label">Otras:</span> Capturas registrador, Falta credenciales, Claridad de info.</li>
                 </ul>
             </section>
+            <section class="process-card border-critical">
+    <div class="card-header">
+        <h3>🚩 Estados Críticos y Definiciones</h3>
+        <span class="badge badge-red">Escalamiento</span>
+    </div>
+
+    <div class="critical-grid">
+        <div class="critical-item alert-stop">
+            <h4>🛑 Límite: PROD 4</h4>
+            <p>Si el proyecto está en <strong>PROD 4</strong> y aún falta algo:</p>
+            <ul class="action-list">
+                <li><strong>NO AVANZAR.</strong></li>
+                <li>Devolver el ticket inmediatamente.</li>
+                <li><strong>ESCALAR CON LÍDER</strong> de forma obligatoria.</li>
+            </ul>
+        </div>
+
+        <div class="critical-item tag-management">
+            <h4>🏷️ Rechazos de Memoria</h4>
+            <p>Al cerrar en el proyecto principal, actualizar el tag de revisión:</p>
+            <div class="tag-evolution">
+                <span class="tag-old">revisión</span> 
+                <span class="arrow">➡</span> 
+                <span class="tag-new">revisión actualización memorias</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="definition-container">
+        <div class="definition-box blocked">
+            <h4>🚫 Bloqueo (Dependencia Externa)</h4>
+            <p>Proyectos que dependen de respuesta de <strong>CS (Customer Success)</strong>:</p>
+            <div class="examples-grid">
+                <span>Accesos</span>
+                <span>2FA Enmascaramiento</span>
+                <span>Migración</span>
+                <span>Capturas Registrador</span>
+            </div>
+        </div>
+
+        <div class="definition-box on-hold">
+            <h4>⏸️ En Pausa (Gestión Interna)</h4>
+            <p>Proyectos que requieren gestión <strong>exclusivamente nuestra</strong>:</p>
+            <div class="examples-grid">
+                <span>Propagación DNS</span>
+                <span>Caídas del Server</span>
+                <span>Sincronización</span>
+            </div>
+        </div>
+    </div>
+</section>
         </div>
 
     </main>
