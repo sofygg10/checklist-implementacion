@@ -931,4 +931,104 @@ small {
     font-weight: normal;
     opacity: 0.8;
 }
+/* --- ESTILOS PARA ESTADOS CRÍTICOS --- */
+
+.border-critical {
+    border-top: 5px solid #ff4757 !important;
+}
+
+.badge-red {
+    background-color: #ff4757;
+    color: white;
+}
+
+.critical-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.critical-item {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+.alert-stop {
+    border-left: 5px solid #ff4757;
+}
+
+.alert-stop h4 { color: #ff4757; }
+
+.action-list {
+    margin-top: 10px;
+    color: #ff6b81;
+    font-weight: bold;
+}
+
+/* Evolución de Tags */
+.tag-evolution {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+    font-family: monospace;
+}
+
+.tag-old { color: #ccc; text-decoration: line-through; }
+.tag-new { 
+    background: #2f3542; 
+    color: #00ffca; 
+    padding: 4px 8px; 
+    border-radius: 4px;
+    border: 1px solid #00ffca;
+}
+
+/* Contenedores de Definición */
+.definition-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.definition-box {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.definition-box.blocked {
+    background: rgba(255, 165, 0, 0.1);
+    border: 1px solid orange;
+}
+
+.definition-box.on-hold {
+    background: rgba(52, 152, 219, 0.1);
+    border: 1px solid #3498db;
+}
+
+.definition-box h4 { margin-top: 0; margin-bottom: 10px; }
+.blocked h4 { color: orange; }
+.on-hold h4 { color: #3498db; }
+
+.examples-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.examples-grid span {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.8em;
+}
+
+@media (max-width: 800px) {
+    .critical-grid, .definition-container {
+        grid-template-columns: 1fr;
+    }
+}
 
