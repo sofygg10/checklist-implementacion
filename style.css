@@ -1032,3 +1032,106 @@ small {
     }
 }
 
+/* --- ESTILOS PARA PROTOCOLOS DE COMUNICACIÓN --- */
+
+.border-markup {
+    border-top: 5px solid #a29bfe !important;
+}
+
+.badge-purple {
+    background-color: #6c5ce7;
+    color: white;
+}
+
+.protocol-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-bottom: 25px;
+}
+
+.protocol-item {
+    background: rgba(108, 92, 231, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid rgba(108, 92, 231, 0.2);
+}
+
+.protocol-item h4 {
+    color: #a29bfe;
+    margin-top: 0;
+}
+
+.action-list-alt {
+    padding-left: 20px;
+    font-size: 0.9em;
+}
+
+.justification-note {
+    color: #fab1a0;
+    margin-top: 10px;
+    list-style: none;
+    margin-left: -20px;
+    padding: 5px 10px;
+    background: rgba(250, 177, 160, 0.1);
+    border-radius: 4px;
+}
+
+/* Alerta de QA */
+.qa-alert {
+    background-color: #00b894;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.qa-alert .small-text {
+    display: block;
+    font-size: 0.75em;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+/* Caja de Credenciales/2FA */
+.protocol-full-width {
+    background: #1e1e2e;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px dashed #6c5ce7;
+}
+
+.tag-label-alt {
+    background: #e67e22;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+.copy-comment-box {
+    margin-top: 15px;
+    background: #000;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.copy-comment-box code {
+    color: #00ffca;
+    display: block;
+    font-size: 1em;
+    padding-top: 5px;
+}
+
+.comment-label {
+    font-size: 0.8em;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+    .protocol-grid { grid-template-columns: 1fr; }
+}
